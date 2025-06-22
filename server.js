@@ -614,7 +614,7 @@ const transporter = nodemailer.createTransport({
 
 function sendMail(to, subject, html, replyTo) {
   return transporter.sendMail({
-    from: '"PEI Zakład Informatyki - Formularz" <peizamowieniaikontaktpei@gmail.com>',
+    from: 'Weryfikacja ogłoszenia LO2 <peizamowieniaikontaktpei@gmail.com>',
     to,
     subject,
     html,
